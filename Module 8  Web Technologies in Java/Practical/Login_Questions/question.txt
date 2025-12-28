@@ -1,0 +1,2 @@
+Q-Create a login form in JSP, send the data to a servlet, and use RequestDispatchertoforward or include a response based on input validity
+Q-Implement a login system in JSP and servlet that uses cookies and session tracking tomanage user authentication
