@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Complete HTML & CSS Assignment</title>
+
+    <style>
+        nav a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: blue;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: red; /* hover effect */
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0; /* margin demo */
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px; /* padding demo */
+        }
+
+        .common-box {
+            background-color: #f2f2f2;
+            padding: 15px;
+            margin: 10px 0;
+        }
+
+        #unique-text {
+            color: green;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        input:focus {
+            background-color: #ffffcc;
+            border: 2px solid orange;
+        }
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 id="home" style="color: purple;">Welcome to Complete Assignment Webpage</h1>
+
+    <img src="https://via.placeholder.com/250" alt="Sample image for assignment">
+    <p id="unique-text">This paragraph is styled using an ID selector.</p>
+
+    <div class="common-box">This is first div using class selector.</div>
+    <div class="common-box">This is second div using class selector.</div>
+
+    <h2 id="form"> Form</h2>
+    <form>
+        <label>Name:</label>
+        <input type="text"><br><br>
+
+        <label>Email:</label>
+        <input type="email"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <h2 id="table">User Table</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Ravi</td>
+            <td>ravi@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Priya</td>
+            <td>priya@gmail.com</td>
+        </tr>
+    </table>
+
+    <h2 id="lists">Lists</h2>
+
+    <h3>Unordered List</h3>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <h3>Ordered List</h3>
+    <ol>
+        <li>Design</li>
+        <li>Develop</li>
+        <li>Test</li>
+    </ol>
+
+</body>
+</html>

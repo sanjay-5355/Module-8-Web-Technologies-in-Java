@@ -1,0 +1,3 @@
+Q-Create a registration form in JSP.
+Q-Send form data to a servlet, process it, and forward the response back to a JSP using
+RequestDispatcher.
